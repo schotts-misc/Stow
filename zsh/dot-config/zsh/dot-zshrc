@@ -9,6 +9,14 @@ zstyle :compinstall filename '/home/john/.zshrc'
 autoload -Uz compinit
 compinit
 
+### Environment Variables
+
+### Aliases
+alias vi='/usr/bin/nvim'
+alias la='/bin/ls -a'
+alias ll='/bin/ls -alh'
+alias l='/bin/ls -lh'
+
 ### Prompt
 setopt PROMPT_SUBST
 autoload -Uz vcs_info
