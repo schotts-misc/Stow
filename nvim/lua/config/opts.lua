@@ -19,7 +19,7 @@ vim.opt.linebreak = true
 vim.opt.colorcolumn = '80'
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
-vim.cmd('colorscheme pablo')
+vim.cmd('colorscheme quiet')
 
 -- Behaviour
 vim.cmd('syntax enable')
