@@ -46,4 +46,6 @@ if [ -d $xinitdir/xinitrc.d ] ; then
 fi
 
 picom &
+slstatus &
+feh --bg-scale $HOME/Pictures/Backgrounds/bg_blue_swish.jpg &
 exec $wm
