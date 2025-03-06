@@ -1,2 +1,4 @@
 export ZDOTDIR=$HOME/.config/zsh
 export PATH=$HOME/.local/bin:$PATH
+export PASSWORD_STORE_DIR=$HOME/.local/password-store
+export EDITOR=/usr/bin/nvim
