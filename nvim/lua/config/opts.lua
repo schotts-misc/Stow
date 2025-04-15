@@ -19,12 +19,13 @@ vim.opt.linebreak = true
 vim.opt.colorcolumn = '80'
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
-vim.cmd('colorscheme quiet')
+vim.cmd('colorscheme default')
 
 -- Behaviour
 vim.cmd('syntax enable')
 vim.cmd('filetype plugin indent on')
-vim.opt.mouse = ''
+vim.opt.mouse = 'a'
+--vim.opt.paste = true
 vim.opt.errorbells = false
 vim.opt.swapfile = true
 vim.opt.backupdir = '/tmp,.'

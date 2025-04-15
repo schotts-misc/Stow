@@ -17,6 +17,7 @@ alias vim='/usr/bin/nvim'
 alias la='/bin/ls -a'
 alias ll='/bin/ls -alh'
 alias l='/bin/ls -lh'
+alias x='startx'
 
 ### Prompt
 setopt PROMPT_SUBST
